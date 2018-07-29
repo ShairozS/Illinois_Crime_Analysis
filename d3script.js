@@ -4,7 +4,7 @@ function disableButtonsWhite(){
     d3.select("#hispanic").remove();
     d3.select("#asian").remove();
     d3.select("#white").attr("onclick", "");
-    d3.select("#option").append("img").attr("src","refresh.png").attr("onclick", "window.location.reload()");
+    d3.select("#option").append("img").attr("src","refresh.png").attr("onclick", "window.location.reload()").style("width", "100px").style("height","100px");
 }
 
 function disableButtonsBlack(){
