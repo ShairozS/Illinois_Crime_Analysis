@@ -1,7 +1,7 @@
 
 
 function about(){
-	d3.select("#intro").append("p").text("We utilize a linear, interactive slideshow hybrid structure. The parameter is the race of the hypothetical person stopped by Illinois police. Each of the buttons at the top of the visualization corresponds to a race represented in the data, and serve as triggers to change the data in all the data visualizations on the page. Each visualization below the race buttons represents a scence of the police stop, and each is annotated with how the outcome of a person of that race would compare to the average person. To choose a different race, refresh the page or press the refresh button next to the selected race.)
+	d3.select("#intro").append("p").text("We utilize a linear, interactive slideshow hybrid structure. The parameter is the race of the hypothetical person stopped by Illinois police. Each of the buttons at the top of the visualization corresponds to a race represented in the data, and serve as triggers to change the data in all the data visualizations on the page. Each visualization below the race buttons represents a scence of the police stop, and each is annotated with how the outcome of a person of that race would compare to the average person. To choose a different race, refresh the page or press the refresh button next to the selected race.")
 };
 
 function disableButtonsWhite(){
