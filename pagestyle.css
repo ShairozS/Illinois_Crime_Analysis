@@ -1,0 +1,84 @@
+<style> /* set the CSS */
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 2px;
+}
+
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 60px;
+  height: 28px;
+  padding: 2px;
+  font: 12px sans-serif;
+  background: lightsteelblue;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.bar {
+            fill: #5f89ad;
+        }
+        
+        .axis {
+            font-size: 13px;
+        }
+        
+        .axis path,
+        .axis line {
+            fill: none;
+            display: none;
+        }
+        
+        .label {
+            font-size: 13px;
+        }
+
+.bar:hover {
+  fill: brown;
+}
+
+h1 { color: black; font: 'Julius Sans One', sans-serif; font-size: 54px; font-weight: 300; line-height: 58px; 
+    margin: 200 200 208px; text-align: center; justify-content: space-around}
+
+h4 { color: red; font: 'Julius Sans One', sans-serif; font-size: 54px; font-weight: 500; line-height: 68px; 
+    margin: 200 200 208px; text-align: center; justify-content: space-around}
+
+
+p { color: darkgray; font-family: 'Lucida Sans', Arial, sans-serif; font-size: 21px; line-height: 26px; text-indent: 30px; margin: 100; text-align: left; }
+
+
+a { color: #fe921f; text-decoration: underline; }
+
+
+a:hover { color: #ffffff }
+
+
+.toolTip {
+  position: absolute;
+  display: none;
+  min-width: 80px;
+  height: auto;
+  background: none repeat scroll 0 0 #ffffff;
+  border: 1px solid #6F257F;
+  padding: 14px;
+  text-align: center;
+}
+
+
+
+</style>
