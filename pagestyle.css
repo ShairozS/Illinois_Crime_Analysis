@@ -59,7 +59,7 @@ h4 { color: red; font: 'Julius Sans One', sans-serif; font-size: 54px; font-weig
     margin: 200 200 208px; text-align: center; justify-content: space-around}
 
 
-p { color: darkgray; font-family: 'Lucida Sans', Arial, sans-serif; font-size: 21px; line-height: 26px; text-indent: 30px; margin: 100; text-align: left; }
+p { color: #2F4F4F; font-family: 'Lucida Sans', Arial, sans-serif; font-size: 21px; line-height: 26px; text-indent: 30px; margin: 100; text-align: left; }
 
 
 a { color: #fe921f; text-decoration: underline; }
