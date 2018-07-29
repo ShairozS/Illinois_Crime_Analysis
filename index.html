@@ -8,16 +8,20 @@
     
     <h1>Reasonable Suspicion Searches and Race</h1>
     
-<div class="w3-container">
+<div class="w3-container" id="intro">
     
   <p class="w3-left w3-animate-opacity" style="animation-duration: 3s; text-align: left">There has been many concerns raised in recent times about how unbiased police judgement actually is. Strong claims and anecdotes from both sides of the political spectrum can distort the level of racial bias actually present in the average police traffic stop. Illinois, a state notorious not only for its high crime rates (in areas of Chicago) but also a number of high profile police encounters has a good data record of it's police stops kept by the Stanford Open Policing Project. We examine this data to look for signs of racial discrimination in policing. The dataset contains a record of 4,715,031 traffic stops from the last 10 years throughout Illinois with a strong focus in Chicago. Driver race is populated for 100% of stops as is whether or not a search was conducted and if contraband was found.
-    <br />
-    <br />
-
-      We utilize a linear, <span style="color:#FF0000">interactive slideshow</span> hybrid structure. The <span style="color:#FF0000">parameter</span> is the race of the hypothetical person stopped by Illinois police. Each of the buttons at the top of the visualization corresponds to a race represented in the data, and serve as <span style="color:#FF0000">triggers</span> to change the data in all the data visualizations on the page. Each visualization below the race buttons represents a <span style="color:#FF0000">scence</span> of the police stop, and each is <span style="color:#FF0000">annotated</span> with how the outcome of a person of that race would compare to the average person. To choose a different race, refresh the page or press the refresh button next to the selected race.</p>
+   </p>
 </div>
 
-    
+    <div id="about">
+    <input name="aboutButton" 
+           id="aboutButton"
+           type="image" 
+           value="Update" 
+           onclick="about()"
+           src="whiteButton.png"/>
+    </div>
     
 <div class="w3-container">
   <h2 class="w3-center w3-animate-opacity" style="animation-duration: 3s; text-align: center">Select your Background</h2>
