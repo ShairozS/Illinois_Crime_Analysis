@@ -5,7 +5,7 @@ function disableButtonsWhite(){
     d3.select("#asian").remove();
     d3.select("#white").attr("onclick", "");
     d3.select("#option").append("img").attr("src","refresh.png").attr("onclick", "window.location.reload()")
-	    .style("width", "50px").style("height","50px");
+	    .style("width", "80px").style("height","80px");
 }
 
 function disableButtonsBlack(){
@@ -14,7 +14,7 @@ function disableButtonsBlack(){
     d3.select("#asian").remove();
     d3.select("#black").attr("onclick", "");
     d3.select("#option").append("img").attr("src","refresh.png").attr("onclick", "window.location.reload()")
-	.style("width", "50px").style("height","50px");
+	.style("width", "80px").style("height","80px");
 }
 
 function disableButtonsHispanic(){
@@ -23,7 +23,7 @@ function disableButtonsHispanic(){
     d3.select("#black").remove();
     d3.select("#hispanic").attr("onclick", "");
     d3.select("#option").append("img").attr("src","refresh.png").attr("onclick", "window.location.reload()")
-	.style("width", "50px").style("height","50px");
+	.style("width", "80px").style("height","80px");
 }
 
 function disableButtonsAsian(){
@@ -32,7 +32,7 @@ function disableButtonsAsian(){
     d3.select("#black").remove();
     d3.select("#asian").attr("onclick", "");
     d3.select("#option").append("img").attr("src","refresh.png").attr("onclick", "window.location.reload()")
-	.style("width", "50px").style("height","50px");
+	.style("width", "80px").style("height","80px");
 }
 
 
